@@ -4,7 +4,7 @@ import { ColorComponent } from './components/color/color.component';
 
 const routes: Routes = [{
 
-  path:'color/:color', component: ColorComponent
+  path: 'color/:color', component: ColorComponent
 }
 
 

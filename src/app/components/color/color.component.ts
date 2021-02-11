@@ -18,12 +18,20 @@ export class ColorComponent implements OnInit {
 
     this.activatedRoute.params.subscribe(
       (params) => {
-    // console.log(params)
-        this.color = params.color;
+      // console.log(params)
+      this.color = params.color;
        
      }
      
     );
+
+    this.activatedRoute.queryParams.subscribe(
+
+      (qp) => {
+
+        console.log(qp)
+      }
+    )
 
   }
 
